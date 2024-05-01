@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background-image: url(img/diario-img-body.avif);
+}
+.container {
+    display: inline-block;
+    margin-left: 20px;
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 10px 20px #000;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: sans-serif;
+    background-color: #fff;
+}
+
+
+.container2 {
+    display: inline-block;
+    margin-left: 20px;
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 10px 20px #000;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: sans-serif;
+    background-color: #000;
+}
+
+.shape {
+    background-color: #000;
+    height: 250px;
+    width: 400px;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #000;
+    transform: rotate(25deg);
+
+}
+
+
+.shape2 {
+    background-color: #fff;
+    height: 250px;
+    width: 400px;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #000;
+    transform: rotate(25deg);
+
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    background-image: url(img/walter-img.jpg);
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-20deg);
+}
+
+
+.image2 {
+    height: 100px;
+    width: 100px;
+    background-image: url(img/laola.png);
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px rgb(58, 54, 54);
+    transform: rotate(-20deg);
+}
+
+.title {
+    font-size: 15px;
+    padding-bottom: 6px;
+    color: #0093AF;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 2;
+    color: rgb(105, 100, 109);
+    font-size: 15px;
+}
+
+.icons {
+    margin-top: 15px;
+}
+
+.icons i {
+    margin-left: 10px;
+    font-size: 20px;
+    transition: .3s;
+    color: rgb(40, 163, 194 );
+}
+
+.icons i:hover {
+    transform: scale(1.2);
+}
+
+
+@media (min-width: 300px) and (max-width: 1200px) {
+
+   .container {
+   margin-top: 300px;
+   }
+  
+   .container2 {
+    margin-top: 100px;
+   }
+
+   body {
+    margin-top: 50px;
+   }
+}
+
