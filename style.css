@@ -5,11 +5,87 @@
 }
 
 body {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    
     background-image: url(img/diario-img-body.avif);
+}
+
+
+.container-presentacion {
+    padding: 100px;
+}
+.img-laola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-laola img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+.presentacion {
+    background: rgba(0, 0, 0, 0.685);;
+	backdrop-filter: 0.4rem;
+    padding: 10px;
+}
+.presentacion h1, h2 {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.presentacion p {
+    color: #fff;
+    text-align: start;
+    font-size: 18px;
+}
+.director {
+  font-size: 16px;  
+}
+
+
+.container-publicidad{
+    padding-top: 50px;
+}
+.container-publicidad h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    background: rgba(0, 0, 0, 0.685);;
+	backdrop-filter: 0.4rem;
+    
+
+}
+.publicidad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+.img-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-mobile img {
+    width: 500px;
+    
+}
+.publicidad img {
+    width: 1200px;
+    
+}
+
+
+
+
+
+.card-w {
+    text-align: center;
+    padding-top: 50px;
+    margin: 10px;
 }
 .container {
     display: inline-block;
@@ -24,6 +100,7 @@ body {
     overflow: hidden;
     font-family: sans-serif;
     background-color: #fff;
+    
 }
 
 
@@ -40,6 +117,8 @@ body {
     overflow: hidden;
     font-family: sans-serif;
     background-color: #000;
+    
+    
 }
 
 .shape {
@@ -143,5 +222,55 @@ p {
    body {
     margin-top: 50px;
    }
+   .container-publicidad h3{
+    width: 100%;
+    font-size: 25px;
+   }
 }
 
+@media only screen and (max-width: 520px){
+    .container-presentacion {
+        padding: 0;
+    }
+    
+.img-mobile {
+    padding-top: 50px;
+}
+
+    .img-mobile img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .container{
+       width: 80%;
+       max-width: 100%;
+       height: auto;
+       margin: 0 auto;
+       
+    }
+
+    .container2{
+        width: 80%;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+     }
+}
+
+@media only screen and (max-width: 1200px) {
+    .publicidad img {
+        display: none;
+
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+    .img-mobile img{
+        display: none;
+    }
+}
